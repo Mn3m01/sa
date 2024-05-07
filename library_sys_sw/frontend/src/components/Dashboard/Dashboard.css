@@ -1,0 +1,35 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .side-panel {
+    width: 200px;
+    background-color: #f0f0f0;
+  }
+  
+  .panel-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .panel-option:hover {
+    background-color: #ddd;
+  }
+  
+  .panel-option.active {
+    background-color: #ccc;
+  }
+  
+  .page-outlet {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .page {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
